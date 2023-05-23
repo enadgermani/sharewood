@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Casa Shervood</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static',filename='vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="sticky-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto">CASA SHERVOOD</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="#about">Home</a></li>
+          <li><a href="#why-us">Le azioni</a></li>
+          <li><a href="#who">Gli attori</a></li>
+          <li><a href="#goal">L'intervento</a></li>
+          <li data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a href="#carousel">Gallery</a></li>
+          <li data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><a href="#contacts">Contatti</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+<div>
+  <p></p>
+</div>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2813.5118327831788!2d9.519900515821831!3d45.15648436194358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4780d70d79aeea41%3A0x62768fd798052609!2sVia%20Don%20Sbarsi%2C%2014%2C%2027013%20Lambrinia%20PV!5e0!3m2!1sit!2sit!4v1675870858566!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6 pt-4 pt-0 order-1 order-lg-1 content">
+            <h1>DOVE SIAMO?</h1>
+            <p class="fst-italic"><h4>Sede operativa:</h4></p>
+            <p class="fst-italic"><h5>Via Don Sbarzi 14</h5></p>
+            <p class="fst-italic"><h5>27013 LAMBRINIA di Chignolo Po (PV)</h5></p>
+            <p class="fst-italic"><h5>Autostrada MI - BO uscita Casalpusterlengo</h5></p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row counters">
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/Logo-CRES.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/Logo-Regione-Lombardia.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/Logo-Unione-Europea.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/nuovo_logo_min_welfare.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/nuovo_logoFSE.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+          <div class="col-lg-2 col-4 text-center">
+            <img src="{{ url_for('static',filename='img/logo_cariplo.gif') }}" class="img-fluid" alt="...">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column">
+              <div class="sectiontitle row">
+
+                <h1>LE AZIONI  <i class="bi bi-chevron-double-down"></i> </h1>
+
+              </div>
+              <div class="row form-group">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-compass"></i>
+                    <p>Formulare progetti di orientamento alla comunità che considerano la persona nella sua globalità.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-house-add-fill"></i>
+                    <p>Accogliere in strutture abitative protette ex-detenuti e detenuti di entrambi i sessi ammessi a beneficiare delle misure alternative alla pena detentiva.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-card-checklist"></i>
+                    <p>Attivare un servizio di tutoring dell'orientamento e dell'inserimento lavorativo che sia di sostegno ai soggetti svantaggiati nella fase si acquisizione di competenze lavorative (employability) e di supporto alle realtà aziendali disponibili a integrarli nel proprio organico.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <p>Individuare e progettare percorsi formativi, coinvolgendo gli Enti pubblici territoriali, rivolti ai soggetti/utenti e agli operatori pubblici e del privato sociale nell'ambito della Giustizia.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-columns-gap"></i>
+                    <p>Esercitare un'azione di integrazione e sinergia di rete tra le istituzioni penitenziarie e giudiziarie, le imprese e le realtà socio-assistenziali e di volontariato del territorio.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-person-heart"></i>
+                    <p>Realizzare un'opera di sensibilizzazione e di promozione sociale all'interno della collettività, aggregandone le potenzialità costruttive.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+
+    <section id="who" class="who">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column">
+              <div class="sectiontitle row">
+                <h1>GLI ATTORI  <i class="bi bi-chevron-double-down"></i></h1>
+              </div>
+              <div class="row form-group">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-1-circle-fill"></i>
+                    <p>Detenuti a fine pena e soggetti reclusi di lunga detenzione in condizione di accedere alle misure alternative e disponibili a sperimentare concretamente la relazione di accompagnamento.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-2-circle-fill"></i>
+                    <p>Tutors che svolgono funzione di orientamento verso la comunità attraverso un percorso concreto, programmato nel tempo e verificabile nei risultati. Orientare alla comunità significa creare opportunità cioè condizioni nelle quali il detenuto valorizza la legalità dentro di sé, e nei suoi rapporti valorizza la legalità e la comunità compiendo un percorso di promozione delle opportunità.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bi bi-3-circle-fill"></i>
+                    <p>Minori in "Messa alla prova" o con collocamento in comunità (art. 22).</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+        </div>
+        </section>
+  </div>
+  </section>
+
+
+  <section id="goal" class="goal">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-boxes d-flex flex-column">
+            <div class="sectiontitle row">
+              <h1>L'INTERVENTO  <i class="bi bi-chevron-double-down"></i></h1>
+            </div>
+            <div class="row form-group">
+              <div class="col-xl-8 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bi bi-bullseye"></i>
+                  <p>La figura del tutor si definisce attraverso la funzione dell'accompagnamento alla persona nella fase di orientamento verso la collettività. La sua azione si manifesta attraverso momenti di consulenza, di riflessione guidata, di stimolo allo sviluppo di una personale capacità di autogestione e dell'elaborazione di un percorso di vita di cui l'aumento dell'autostima, la percezione di sé come padroni delle proprie azioni, l'idea di sé come protagonista delle proprie scelte rappresentano il fondamentale punto di arrivo.</div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bi bi-clipboard2-check"></i>
+                  <p>Il <b>Tutor</b> è un operatore qualificato, dispone di competenze cui è consapevole e costruisce percorsi intenzionali e rigorosi sul piano del metodo. Svolge ruoli operativi che non si sovrappongono a quelli istituzionali/professionali e soprattutto esercita un'azione di integrazione e sinergia di rete in una logica di contrattazione libera con la persona che accompagna.</div>
+            </div>
+          </div><!-- End .content-->
+        </div>
+      </div>
+      </div>
+      </section>
+</div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">GALLERIA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="{{ url_for('static',filename='img/foto/1.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/2.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/3.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/4.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/5.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/6.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/7.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/8.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/9.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/10.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/11.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/12.jfif') }}" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url_for('static',filename='img/foto/13.jfif') }}" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">CHIUDI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel2">CONTATTI</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CONTATTI</h3>
+            <p>
+              <h4>Cooperativa sociale</h4>
+            </p>
+            <h3>SHERWOOD a.r.l. onlus</h3>
+            <strong>Telefono:</strong> 0382.723068<br>
+            <strong>Fax:</strong> 0382.723484<br>
+            <strong>Email:</strong> info@casasherwood.it<br>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">CHIUDI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CONTATTI</h3>
+            <p>
+              <h4>Cooperativa sociale</h4>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>SHERWOOD a.r.l. onlus</h3>
+            <strong>Telefono:</strong> 0382.723068<br>
+            <strong>Fax:</strong> 0382.723484<br>
+            <strong>Email:</strong> info@casasherwood.it<br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static',filename='vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url_for('static',filename='vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
